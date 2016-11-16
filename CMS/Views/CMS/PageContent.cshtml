@@ -1,0 +1,54 @@
+﻿@model CMS.Models.Contents
+
+@{
+    ViewBag.Title = "PageContent";
+}
+
+<h2>PageContent</h2>
+
+<div>
+    <h4>Contents</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        
+
+
+        <dd>
+            @Html.DisplayFor(model => model.HEADER)
+        </dd>
+
+      
+
+        <dd>
+            @Html.DisplayFor(model => model.FOOTER)
+        </dd>
+
+       
+
+        <dd>
+            @Html.DisplayFor(model => model.TOP)
+        </dd>
+
+      
+
+        <dd>
+            @Html.DisplayFor(model => model.MIDDLE)
+        </dd>
+
+      
+
+        <dd>
+            @Html.DisplayFor(model => model.BOTTOM)
+        </dd>
+
+      
+
+   
+
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+    </dl>
+</div>
+

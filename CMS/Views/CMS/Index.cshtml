@@ -1,0 +1,100 @@
+﻿@model List<CMS.Models.Pages>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (Model != null)
+{
+    <table>
+        <tr>
+            @foreach (var page in Model)
+            {
+                <td style="width:20%">
+                    @Html.ActionLink(page.PAGENAME, "PageContent", "CMS", new { id = page.PAGEID }, null)
+                </td>
+            }
+        </tr>
+    </table>
+}
+
+@using (Html.BeginForm("Index", "CMS"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Pages</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+
+        <div class="form-group">
+            @Html.Label("Page Name", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("PageName")
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Header Content", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Header")
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.Label("Top Content", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Top")
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.Label("Middle Content", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Middle")
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.Label("Bottom Content", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Bottom")
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.Label("Footer Content", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Footer")
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

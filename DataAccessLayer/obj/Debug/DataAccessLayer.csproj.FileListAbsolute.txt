@@ -2,3 +2,7 @@ C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\bin\De
 C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
 C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\experiments\cruddal\cruddal\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\experiments\cruddal\cruddal\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\experiments\cruddal\cruddal\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\experiments\cruddal\cruddal\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
