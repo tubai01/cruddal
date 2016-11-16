@@ -1,0 +1,4 @@
+C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\subhrajc\Desktop\DataAccessLayer\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
